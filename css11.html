@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main{
+    height:100px;
+    width: 100%;
+    background-color: aqua;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: aqua; */
+    box-sizing:border-box;
+} 
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(23, 179, 166);
+}
+.nav{
+    height: 120px;
+    width:100%;
+    background-color: rgb(177, 36, 54);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.logo ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20x;
+}
+.logo ul li{
+    list-style: none;
+}
+.logo ul li a{
+    text-decoration: none;
+}
+.asidebar{
+    height: 600px;
+    width:15%;
+    background-color: blueviolet;
+    float: right;
+}
+.footer{
+    height: 600px;
+    width:100% ;
+    background-color:green ;
+    margin-top: 600px;
+}
+h1{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+<div class="nav">
+    <div class="logo">Logo
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<div class="asidebar"><h1>A Side Bar</h1></div>
+<div class="footer"><h1>Footer</h1></div>
+
+
+</body>
+</html>
